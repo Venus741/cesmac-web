@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     <title>Sabor 2024</title>
+
 </head>
 <body>
     <div class="principal-container">
@@ -16,28 +18,28 @@
             <form action="">
                 <p id="textos-input">Nome:
                 <br>
-                <input type="text" name="nome" id="inputs"></p>
+                <input type="text" name="nome" class="inputs"></p>
                 
                 <p id="textos-input">E-mail: 
                 <br>
-                <input type="email" name="email" id="inputs"></p>
+                <input type="email" name="email" class="inputs"></p>
                 
                 <p id="textos-input">Data de nascimento:
                 <br>
-                <input type="date" name="data" id="inputs"></p>
+                <input type="date" name="data" class="inputs"></p>
                 
                 <p id="textos-input">Residência:
                 <br>
-                <input type="text" name="residencia" id="inputs"></p>
+                <input type="text" name="residencia" class="inputs"></p>
                 
                 <p id="textos-input">Preferencia de alimentação:
                 <br>
-                <input type="text" name="preferencia" id="inputs"></p>
+                <input type="text" name="preferencia" class="inputs"></p>
 
                 <div class="botao-container">
 
-                    <button id="botao1"></button>
-                    <button id="botao2"></button>
+                    <div id="botao1" onclick="limpar_campo()">Limpar</div>
+                    <div id="botao2" onclick="clique()">Salvar</div>
                     
                 </div>
             </form>
