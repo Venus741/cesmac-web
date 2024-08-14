@@ -5,3 +5,7 @@ function limpar_campo() {
         input.value = '';        
     })
 }
+
+function click() {
+    console.log('FUNCIONANDO');
+}

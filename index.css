@@ -56,22 +56,25 @@ body {
 }
 
 #botao1 {
-
-  height: 25%;
-  width: 25%;
+  height: 35%;
+  width: 30%;
   font-weight: bold;
-  color: red;
-  
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
 }
 
 #botao2 {
-  height: 25%;
-  width: 25%;
+  height: 35%;
+  width: 30%;
   font-weight: bold;
-  color: green; 
-  
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 3px;
 }
 
 #botao1:hover, #botao2:hover {
-  cursor: pointer;
+  color: black;
 }
