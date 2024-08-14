@@ -7,7 +7,7 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: #252525;
+  background-color: #252525
 
 }
 
@@ -22,12 +22,12 @@ body {
 
 .formulario {
   display: flex;
-  background-color: aquamarine;
+  background-color: #f3f3f3;
   align-items: center;
   justify-content: center;
   width: 700px;
   height: 500px;
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 #textos-input {
@@ -41,9 +41,10 @@ body {
   width: 350px;
   font-size: 18px;
   border: 2px;
-  border-radius: 5px;
+  border-radius: 2px;
   box-shadow: none;
   padding-left: 10px;
+  background-color: rgb(168, 168, 255);
 }
 
 .botao-container {
@@ -55,18 +56,20 @@ body {
 }
 
 #botao1 {
-  border: 5px;
+
   height: 25%;
   width: 25%;
   font-weight: bold;
-  border-color: red;
+  color: red;
+  
 }
 
 #botao2 {
   height: 25%;
   width: 25%;
   font-weight: bold;
-  border-color: green;
+  color: green; 
+  
 }
 
 #botao1:hover, #botao2:hover {
