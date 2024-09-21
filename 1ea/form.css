@@ -55,7 +55,7 @@ body {
 }
 
 button {
-  background-color: #007BFF;
+  background-color: rgb(42, 141, 42);
   color: white;
   border: none;
   padding: 10px 20px;
